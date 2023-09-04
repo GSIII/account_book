@@ -1,0 +1,38 @@
+.incomeoutcome__container {
+  display: flex;
+  flex-direction: row;
+  color: balck;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  margin: 10px 10px;
+  font-weight: bold;
+}
+.totalincome {
+  /* border: 1px solid red; */
+  /* background-color: grey; */
+  /* border-radius: 10px; */
+  /* padding: 10px 10px; */
+  /* font-size: 1rem; */
+  font-weight: bold;
+}
+.totaloutcome {
+  /* border: 1px solid red; */
+  box-shadow: grey;
+  /* border-radius: 10px; */
+  /* padding: 10px 10px; */
+  font-size: 1rem;
+}
+.totalbalance__container {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid blue; */
+  border-radius: 10px;
+  padding: 10px 10px;
+  font-size: 1.5rem;
+}
+.container {
+  border-radius: 10px;
+  /* border: 1px solid black; */
+  /* box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25); */
+}

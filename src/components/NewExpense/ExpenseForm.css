@@ -1,0 +1,43 @@
+.new-expense__controls {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.new-expense__control_inout {
+  display: inline-block;
+  margin: 2rem;
+}
+.income {
+  margin: 1.3rem;
+}
+.outcome {
+  margin: 1.3rem;
+}
+.new-expense__control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.new-expense__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.new-expense__actions {
+  text-align: center;
+}
+
+.close {
+  margin: 10px;
+}
+.submit {
+  margin: 10px;
+}

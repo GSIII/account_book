@@ -1,0 +1,38 @@
+.name {
+  margin: 10px 10px;
+  text-align: center;
+}
+.pw {
+  margin: 10px 10px;
+  text-align: center;
+}
+
+.bottomButton {
+  text-align: center;
+}
+
+.modal_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px;
+}
+.loginbutton {
+  background-color: #658864;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+.closebutton {
+  background-color: #658864;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  margin: 10px 10px;
+  cursor: pointer;
+}
