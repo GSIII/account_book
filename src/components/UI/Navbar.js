@@ -12,9 +12,9 @@ export default function Navbar() {
     <>
       <header className="header">
         <h1>Money Book</h1>
-        <a className="button" onClick={onClickButton}>
+        <div className="button" onClick={onClickButton}>
           로그인
-        </a>
+        </div>
       </header>
       {isOpen && (
         <Modal
